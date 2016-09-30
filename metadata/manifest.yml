@@ -33,3 +33,4 @@ Endpoints:
   Public-Port-Name: DB_PROXY_PORT
   Protocols:
   - mysql
+Source-Url: https://github.com/Macs75/openshift-cartridge-mysql/archive/master.zip
