@@ -3,7 +3,7 @@
 source $OPENSHIFT_CARTRIDGE_SDK_BASH
 
 # Download
-curl -L -o ${OPENSHIFT_DATA_DIR}tmp.tgz http://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-${2}-linux-glibc2.5-x86_64.tar.gz
+curl -L -o ${OPENSHIFT_DATA_DIR}tmp.tgz http://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.15-linux-glibc2.5-x86_64.tar.gz
 
 # Create bin directory if necessary
 mkdir -p ${OPENSHIFT_DATA_DIR}.mysql
